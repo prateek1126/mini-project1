@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Houses</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Motorcycles</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
     <script>
@@ -23,51 +23,51 @@
       </script>
 </head>
 
-<body onload="showHouses()">
+<body onload="showMotorcycles()">
     <!-- Navbar or Header ============================================================================== -->
-    <nav class="header navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img src="./img/olx-logo.png" class="logo" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav class="header navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="../img/olx-logo.png" class="logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="all categories.html">All Categories</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="mobile phones.html">Mobile Phones</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="cars.html">Cars</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="motorcycles.html">Motorcycles</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="houses.html">Houses</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="tv video audio.html">TV-Video-Audio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="tablets.html">Tablets</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="land and plots.html">Land & Plots</a>
-                </li>
-            </ul>
-                <a href="login.html">Login &nbsp;</a>
-                <a href="login.html"><button class="btn btn-outline-primary my-2 my-sm-0">Sell</button></a>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="electronics.html">Electronics</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="books.html">Books</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="fashion.html">Fashion</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="stationary.html">Stationary</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="furniture.html">Furniture</a>
+                    </li>
+                </ul>
+                    <!-- Example single danger button -->
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary mr-3 dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My Profile
+                        </button>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="my ads.html">My Ads</a>
+                        <a class="dropdown-item" href="../index.html">Logout</a>
+                        </div>
+                    </div>
+                    <a href="product.html"><button class="btn btn-outline-primary my-2 my-sm-0">Sell</button></a>
+            </div>
+        </nav>
 
         <!-- Fresh Recommendations ================================================================================= -->
         <div class="fresh_rec">
             <div>
-                <h4>Houses</h4>
+                <h4>Motorcycles</h4>
             </div>
 
             <div class="row" id="productContainer">
@@ -133,7 +133,10 @@
             <div class="col-1"></div>
         </div>
 
-<script src="js/app.js"></script>
+<script src="../js/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
